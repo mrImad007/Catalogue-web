@@ -74,7 +74,7 @@
 <body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
 
     <!--Nav-->
-    <header class="header sticky top-0 bg-white shadow-md flex items-center justify-between px-8 py-02">
+    <header class="header top-0 bg-white shadow-md flex items-center justify-between px-8 py-02">
     <!-- logo -->
     <h1 class="w-3/12">
         <a href="">
@@ -92,7 +92,7 @@
               <a href="">Produits</a>
             </li>
             <li class="p-4 border-b-2 border-green-500 border-opacity-0 hover:border-opacity-100 hover:text-green-500 duration-200 cursor-pointer">
-              <a href="">Collections</a>
+              <a href="../view/index.php">Dashboard</a>
             </li>
             <li class="p-4 border-b-2 border-green-500 border-opacity-0 hover:border-opacity-100 hover:text-green-500 duration-200 cursor-pointer">
               <a href="">Contact</a>
