@@ -58,7 +58,8 @@
 		</div>
 	</div>
 	<img src="https://source.unsplash.com/random/480x320" alt="" class="w-5/6 mx-auto mb-12 -mt-20 rounded-lg shadow-md lg:-mt-40 dark:bg-gray-500">
-</section>
+</section><br>
+<h1 class="text-center text-3xl">Products</h1>
 <!-- carousel --->
 <div class="relative w-full flex gap-4 py-6 overflow-x-auto">
 	<img class="h-48 aspect-video rounded-sm object-cover object-center dark:bg-gray-500" src="https://source.unsplash.com/random/241x361/?1" alt="Image 1">
