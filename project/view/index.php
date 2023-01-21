@@ -1,3 +1,6 @@
+<?php
+include('../controller/show.control.php')
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,15 +51,11 @@
 <!-- first hero --->
 	<div>
 		<div class="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900">
-			<h1 class="text-5xl font-bold leading-none sm:text-6xl xl:max-w-3xl dark:text-gray-900">Provident blanditiis cum exercitationem</h1>
-			<p class="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl dark:text-gray-900">Cupiditate minima voluptate temporibus quia? Architecto beatae esse ab amet vero eaque explicabo!</p>
-			<div class="flex flex-wrap justify-center">
-				<button type="button" class="px-8 py-3 m-2 text-lg font-semibold rounded dark:bg-gray-800 dark:text-gray-50">Get started</button>
-				<button type="button" class="px-8 py-3 m-2 text-lg border rounded dark:border-gray-700 dark:text-gray-900">Learn more</button>
-			</div>
+			<h1 class="text-5xl font-bold leading-none sm:text-6xl xl:max-w-3xl dark:text-gray-900">Cosmetics, Beauty products, fragrances and tools</h1>
+			<p class="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl dark:text-gray-900">ON EST PAS LES SEULS, MAIS ON EST LES MEILLEURS</p>
 		</div>
 	</div>
-	<img src="https://source.unsplash.com/random/480x320" alt="" class="w-5/6 mx-auto mb-12 -mt-20 rounded-lg shadow-md lg:-mt-40 dark:bg-gray-500">
+	<img src="https://i.pinimg.com/736x/c5/21/04/c52104c88250fa258f8e86aebf7ccd07.jpg" alt="" class="w-5/6 mx-auto mb-12 -mt-20 rounded-lg shadow-md lg:-mt-40 dark:bg-gray-500">
 </section><br>
 <h1 class="text-center text-3xl">Products</h1>
 <!-- carousel --->

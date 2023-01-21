@@ -21,15 +21,15 @@
                 <div class="text-white">
                     <div class="flex p-2  bg-gray-800">
                         <div class="flex py-3 px-2 items-center">
-                            <p class="text-2xl text-green-500 font-semibold">SA</p <p class="ml-2 font-semibold italic">
-                            DASHBOARD</p>
+                            <p class="text-2xl text-green-500 font-semibold">SA</p>
+                             <p class="ml-2 font-semibold italic">DASHBOARD</p>
                         </div>
                     </div>
                     <div class="flex justify-center">
                         <div class="">
                             <img class="hidden h-24 w-24 rounded-full sm:block object-cover mr-2 border-4 border-green-400"
-                                src="https://image.flaticon.com/icons/png/512/149/149071.png" alt="">
-                            <p class="font-bold text-base  text-gray-400 pt-2 text-center w-24">Safwan</p>
+                                src="https://intranet.youcode.ma/storage/users/profile/493-1664881451.JPG" alt="admin image">
+                            <p class="font-bold text-base  text-gray-400 pt-2 text-center w-24">imad eddine zaoui</p>
                         </div>
                     </div>
                     <div>
