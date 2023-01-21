@@ -46,7 +46,7 @@
     </div>
 </header>
 <!-- first hero --->
-	<div class="dark:bg-violet-400">
+	<div>
 		<div class="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900">
 			<h1 class="text-5xl font-bold leading-none sm:text-6xl xl:max-w-3xl dark:text-gray-900">Provident blanditiis cum exercitationem</h1>
 			<p class="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl dark:text-gray-900">Cupiditate minima voluptate temporibus quia? Architecto beatae esse ab amet vero eaque explicabo!</p>
@@ -68,6 +68,45 @@
 	<img class="h-48 aspect-video rounded-sm object-cover object-center dark:bg-gray-500" src="https://source.unsplash.com/random/241x361/?5" alt="Image 5">
 </div>
 <!-- finito --->
+<!-- testimonials start -->
+<section class="my-8">
+	<div class="container mx-auto flex flex-col items-center pb-6 mb-4 md:p-10 md:px-12">
+		<h1 class="text-4xl font-semibold leading-none text-center">What our customers are saying about us</h1>
+	</div>
+	<div class="container mx-auto grid grid-cols-1 gap-8 lg:gap-20 md:px-10 md:pb-10 lg:grid-cols-2">
+		<div class="flex flex-col items-center mx-12 lg:mx-0">
+			<div class="relative text-center">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="absolute top-0 left-0 w-8 h-8 dark:text-gray-700">
+					<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
+					<path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
+				</svg>
+				<p class="px-6 py-1 text-lg italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.</p>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="absolute bottom-0 right-0 w-8 h-8 dark:text-gray-700">
+					<path d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
+					<path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
+				</svg>
+			</div>
+			<span class="w-12 h-1 my-2 rounded-lg dark:bg-violet-400"></span>
+			<p>Leroy Jenkins</p>
+		</div>
+		<div class="flex flex-col items-center max-w-lg mx-12 lg:mx-0">
+			<div class="relative text-center">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="absolute top-0 left-0 w-8 h-8 dark:text-gray-700">
+					<path fill="currentColor" d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
+					<path fill="currentColor" d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
+				</svg>
+				<p class="px-6 py-1 text-lg italic">Accusantium illum cupiditate harum asperiores iusto quos quasi quis quae! Fugit doloribus, voluptatum quidem magnam velit excepturi nobis, reprehenderit ducimus incidunt quisquam quae veritatis, quos iure harum.</p>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="absolute bottom-0 right-0 w-8 h-8 dark:text-gray-700">
+					<path fill="currentColor" d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
+					<path fill="currentColor" d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
+				</svg>
+			</div>
+			<span class="w-12 h-1 my-2 rounded-lg dark:bg-violet-400"></span>
+			<p>Leroy Jenkins</p>
+		</div>
+	</div>
+</section>
+<!-- testimonials end -->
 <!-- footer start -->
 <footer aria-label="Site Footer" class="bg-gray-100">
   <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
