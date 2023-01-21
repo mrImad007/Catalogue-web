@@ -8,12 +8,19 @@
             
                 if(isset($_POST['email'])){
 
-                    $name = $_POST['email'];
+                    $email = $_POST['email'];
                     $password = $_POST['password']; 
 
-                    $result = $this->check($name,$password);
+                    $result = $this->check($email,$password);
 
-                    print_r($result);
+                    if(!$result){
+                        header('Location: ../view/signin.forms.php');
+                    }
+                    else{
+                        header('Location: ../view/dashboard.php');
+                    }
+                }else{
+                    header('Location: ../view/index.com');
                 }
             }
         }

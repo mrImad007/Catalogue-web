@@ -48,7 +48,7 @@
 
 <div class="flex flex-col items-center justify-center w-screen h-screen bg-gray-200 text-gray-700">
     <h1 class="font-bold text-2xl">Welcome Back Admin :)</h1>
-    <form class="flex flex-col bg-white rounded shadow-lg p-12 mt-12" action="../controller/test.php" method="post">
+    <form class="flex flex-col bg-white rounded shadow-lg p-12 mt-12" action="../controller/login.control.php" method="post">
         <label class="font-semibold text-xs" for="usernameField">Enter your Email</label>
         <input class="flex items-center h-12 px-4 w-64 bg-gray-200 mt-2 rounded focus:outline-none focus:ring-2" type="text" name="email">
         <label class="font-semibold text-xs mt-3" for="passwordField">Enter your Password</label>
