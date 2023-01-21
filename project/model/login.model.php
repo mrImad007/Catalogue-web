@@ -6,7 +6,7 @@
         public function check($name,$password){
 
             $log = new dataB;
-            $pdo = $this->connectPdo();
+            $pdo = $log->connectPdo();
 
             $query = "SELECT * FROM `admin` WHERE username = '$name' AND `password` = '$password' ";
             $stet = $pdo->prepare($query);

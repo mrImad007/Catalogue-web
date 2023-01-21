@@ -3,7 +3,7 @@
     class dataB{
         private $root = 'root';
         private $pswd = '';
-        private $host = "mysql:host=localhost;port=8000;dbname=Glowguru";
+        private $host = "mysql:host=localhost;port=3306;dbname=Glowguru";
 
         protected function connectPdo(){
             

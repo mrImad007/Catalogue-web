@@ -5,26 +5,19 @@
         
         public function direction(){
 
-            session_start();
+            
+                if(isset($_POST['email'])){
 
-            if(!isset($_SESSION['username'])){
-                if(isset($_POST['username'])){
-
-                    $name = $_POST['username'];
+                    $name = $_POST['email'];
                     $password = $_POST['password']; 
 
                     $result = $this->check($name,$password);
 
-                    if(!$result){
-                        header('Location: ../view/signin.php');
-                    }
-                    else{
-                        header('Location: ../view/dashboard.php');
-                    }
+                    print_r($result);
                 }
             }
         }
-    }
+    
         $conn = new connecting();
         $conn->direction(); 
 ?>
