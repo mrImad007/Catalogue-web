@@ -25,7 +25,7 @@
     <style>
         .work-sans {
             font-family: 'Work Sans', sans-serif;
-        }
+        } 
                 
         #menu-toggle:checked + #menu {
             display: block;
