@@ -1,4 +1,5 @@
 <?php 
+   
     include('../controller/show.control.php');
 ?>
 <!DOCTYPE html>
