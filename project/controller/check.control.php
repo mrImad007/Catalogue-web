@@ -5,12 +5,12 @@
 
         public function checking(){
             session_start();
-             if(!isset($_SESSION['login'])){
-                header('Location : ../view/signin.forms.php');
-             }
-             else{
-                header('Location : ../view/dashboard.php');
-             }
+            if(!isset($_SESSION['login'])){
+                header('Location: ../view/signin.forms.php');
+            }
+            else if(isset($_SESSION['login'])){
+                header('Location: ../view/dashboard.php');
+            }
         }
     }
 
