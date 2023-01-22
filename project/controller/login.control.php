@@ -17,10 +17,12 @@
                         header('Location: ../view/signin.forms.php');
                     }
                     else{
+                        session_start();
+                        $_SESSION['login'] = $email;
                         header('Location: ../view/dashboard.php');
                     }
                 }else{
-                    header('Location: ../view/index.com');
+                    header('Location: ../view/signin.forms.php');
                 }
             }
         }

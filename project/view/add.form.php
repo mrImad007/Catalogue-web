@@ -1,3 +1,6 @@
+<?php
+    include('../controller/show.single.control.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,12 +8,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <title>Add product</title>
 </head>
 <body>
 <section>
        <!--Nav-->
-       <header class="header top-0 shadow-md bg-gray-100 flex items-center justify-between px-8 py-02" >
+       <header class="header top-0 bg-gray-100 shadow-md flex items-center justify-between px-8 py-02">
     <!-- logo -->
     <h1 class="w-3/12">
         <a href="">
@@ -45,36 +48,45 @@
         </a>
     </div>
 </header><br>
-<!-- end nav --->
-<h1 class="text-center text-4xl font-bold text-gray-800">Don't hesitate to ontact Us</h1><br>
-<!-- start forms --->
-<div class="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 dark:bg-gray-800 dark:text-gray-100">
-	<div class="flex flex-col justify-between">
-		<div class="space-y-2">
-			<h2 class="text-4xl font-bold leading-tight lg:text-5xl">Let's talk!</h2>
-			<div class="dark:text-gray-400">Vivamus in nisl metus? Phasellus.</div>
-		</div>
-		<img src="assets/svg/doodle.svg" alt="" class="p-6 h-52 md:h-64">
-	</div>
-	<form novalidate="" class="space-y-6 ng-untouched ng-pristine ng-valid">
-		<div>
-			<label for="name" class="text-sm">Full name</label>
-			<input id="name" type="text" placeholder="" class="w-full p-3 rounded dark:bg-gray-800">
-		</div>
-		<div>
-			<label for="email" class="text-sm">Email</label>
-			<input id="email" type="email" class="w-full p-3 rounded dark:bg-gray-800">
-		</div>
-		<div>
-			<label for="message" class="text-sm">Message</label>
-			<textarea id="message" rows="3" class="w-full p-3 rounded dark:bg-gray-800"></textarea>
-		</div>
-		<button type="submit" class="w-full p-3 text-sm font-bold tracking-wide uppercase rounded dark:bg-violet-400 dark:text-gray-900">Send Message</button>
-	</form>
+<!-- end navigation -->
+<!-- start form -->
+<h1 class="font-medium text-3xl text-center">Add a new product</h1><br>
+<div class="p-8 rounded border border-gray-200">
+    <h3 class="text-center">Keep manipulating your database when ever you want to ;)</h3>
+  <form action="../controller/add.control.php" method="post">
+    <div class="mt-8 grid lg:grid-cols-2 gap-4">
+      <div>
+        <label for="name" class="text-sm text-gray-700 block mb-1 font-medium">Product image</label>
+        <input type="text" name="image" id="name" class="bg-gray-100 border border-gray-200 rounded py-1 px-3 block focus:ring-blue-500 focus:border-blue-500 text-gray-700 w-full" placeholder="URL"  />
+      </div>
+
+      <div>
+        <label for="email" class="text-sm text-gray-700 block mb-1 font-medium">Product name</label>
+        <input type="text" name="name" id="email" class="bg-gray-100 border border-gray-200 rounded py-1 px-3 block focus:ring-blue-500 focus:border-blue-500 text-gray-700 w-full" placeholder="product name" />
+      </div>
+
+      <div>
+        <label for="job" class="text-sm text-gray-700 block mb-1 font-medium">Product price</label>
+        <input type="text" name="price" id="job" class="bg-gray-100 border border-gray-200 rounded py-1 px-3 block focus:ring-blue-500 focus:border-blue-500 text-gray-700 w-full" placeholder="product price $" />
+      </div>
+
+      <div>
+        <label for="brithday" class="text-sm text-gray-700 block mb-1 font-medium">Product category</label>
+        <input type="text" name="category" id="brithday" class="bg-gray-100 border border-gray-200 rounded py-1 px-3 block focus:ring-blue-500 focus:border-blue-500 text-gray-700 w-full" placeholder="exemple (Fragerance)" />
+      </div>
+    </div>
+
+    <div class="space-x-4 mt-8 flex justify-center">
+      <button type="submit" class="py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600 active:bg-blue-700 disabled:opacity-50">Save</button>
+    </div>
+  </form><br>
+    <a href="../view/dashboard.php" class="flex justify-center">
+        <button class="py-2 px-4 bg-white border border-gray-200 text-gray-600 rounded hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50">Cancel</button>
+    </a>
 </div>
-<!-- end forms --->
-<!-- footer start -->
-<footer aria-label="Site Footer" class="bg-gray-100">
+<!-- end form -->
+  <!-- footer start -->
+  <footer aria-label="Site Footer" class="bg-gray-100">
   <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
     <div class="flex justify-center text-teal-600">
       <svg
@@ -287,6 +299,5 @@
     </ul>
   </div>
 </footer>
-
 </body>
 </html>

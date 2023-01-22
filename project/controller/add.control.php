@@ -4,13 +4,14 @@ include('../Model/add.model.php');
 class addConfirmation extends add{
     
     public function confirmation(){
-        if(isset($_POST['productName'], $_POST['productPrice'],$_POST['productImage'])){
-            $productName = $_POST['productName'];
-            $productPrice = $_POST['productPrice'];
-            $productImage = $_POST['productImage'];
+        if(isset($_POST['name'], $_POST['price'],$_POST['image'], $_POST['category'])){
+            $productName = $_POST['name'];
+            $productPrice = $_POST['price'];
+            $productImage = $_POST['image'];
+            $productCategory = $_POST['category'];
 
             $executing = new add();
-            $executing->adding($productName,$productPrice,$productImage);
+            $executing->adding($productImage,$productName,$productPrice,$productCategory);
         }
         header('Location: ../view/dashboard.php');
     }

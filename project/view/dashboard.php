@@ -32,7 +32,7 @@
                         <div class="">
                             <img class="hidden h-24 w-24 rounded-full sm:block object-cover mr-2 border-4 border-green-400"
                                 src="https://intranet.youcode.ma/storage/users/profile/493-1664881451.JPG" alt="admin image">
-                            <p class="font-bold text-base  text-gray-400 pt-2 text-center w-24">imad eddine zaoui</p>
+                            <p class="font-bold text-base  text-gray-400 pt-2 text-center w-24">Imad Eddine ZAOUI</p>
                         </div>
                     </div>
                     <div>
@@ -128,7 +128,8 @@
                 <div class="text-white">
                     <div class="flex p-2  bg-gray-800">
                         <div class="flex py-3 px-2 items-center">
-                            <p class="text-2xl text-green-500 font-semibold">SA</p <p class="ml-2 font-semibold italic">
+                            <p class="text-2xl text-green-500 font-semibold">SA</p>
+                             <p class="ml-2 font-semibold italic">
                             DASHBOARD</p>
                         </div>
                     </div>
@@ -238,42 +239,6 @@
 
                     <ul class="flex items-center flex-shrink-0 space-x-6">
 
-                        <!-- Notifications menu -->
-                        <li class="relative">
-                            <button
-                                class="p-2 bg-white text-green-400 align-middle rounded-full hover:text-white hover:bg-green-400 focus:outline-none "
-                                @click="toggleNotificationsMenu" @keydown.escape="closeNotificationsMenu"
-                                aria-label="Notifications" aria-haspopup="true">
-                                <div class="flex items-cemter">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-                                    </svg>
-                                </div>
-                                <!-- Notification badge -->
-                                <span aria-hidden="true"
-                                    class="absolute top-0 right-0 inline-block w-3 h-3 transform translate-x-1 -translate-y-1 bg-red-600 border-2 border-white rounded-full dark:border-gray-800"></span>
-                            </button>
-                            <template x-if="isNotificationsMenuOpen">
-                                <ul x-transition:leave="transition ease-in duration-150"
-                                    x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"
-                                    @click.away="closeNotificationsMenu" @keydown.escape="closeNotificationsMenu"
-                                    class="absolute right-0 w-56 p-2 mt-2 space-y-2 text-gray-600 bg-green-400 border border-green-500 rounded-md shadow-md">
-                                    <li class="flex">
-                                        <a class="text-white inline-flex items-center justify-between w-full px-2 py-1 text-sm font-semibold transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800"
-                                            href="#">
-                                            <span>Messages</span>
-                                            <span
-                                                class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-red-600 bg-red-100 rounded-full dark:text-red-100 dark:bg-red-600">
-                                                13
-                                            </span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </template>
-                        </li>
-
                         <!-- Profile menu -->
                         <li class="relative">
                             <button
@@ -298,18 +263,18 @@
                                     aria-label="submenu">
                                     <li class="flex">
                                         <a class=" text-white inline-flex items-center w-full px-2 py-1 text-sm font-semibold transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800"
-                                            href="#">
+                                            href="../view/add.form.php">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                     d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                             </svg>
-                                            <span>Profile</span>
+                                            <span>Add product(s)</span>
                                         </a>
                                     </li>
                                     <li class="flex">
                                         <a class="text-white inline-flex items-center w-full px-2 py-1 text-sm font-semibold transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800"
-                                            href="#">
+                                            href="../controller/logout.control.php">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -437,12 +402,6 @@
                                 </div>
                             </div>
                             <div class="col-span-12 mt-5">
-                                <div class="grid gap-2 grid-cols-1 lg:grid-cols-2">
-                                    <div class="bg-white shadow-lg p-4" id="chartline"></div>
-                                    <div class="bg-white shadow-lg" id="chartpie"></div>
-                                </div>
-                            </div>
-                            <div class="col-span-12 mt-5">
                                 <div class="grid gap-2 grid-cols-1 lg:grid-cols-1">
                                     <div class="bg-white p-4 shadow-lg rounded-lg">
                                         <h1 class="font-bold text-base">Table</h1>
@@ -514,7 +473,7 @@
                                                                                 <a href="#" class="text-blue-500 hover:text-blue-600">
 
                                                                                 </a>
-                                                                                <form action="../view/updateform.php" method="post">
+                                                                                <form action="../view/update.form.php" method="post">
                                                                                 <input type="hidden" name="productId" value="<?php echo $product['id']?>">
                                                                                     <button>
                                                                                         <svg xmlns="http://www.w3.org/2000/svg"

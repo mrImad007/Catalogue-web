@@ -1,19 +1,19 @@
 <?php
-    include('../Controller/login.control.php');
-    session_start();
 
+    include('../Controller/login.control.php');
     class checklogin extends connecting{
 
         public function checking(){
-
-             if(isset($_SESSION['username'])){
-                header('Location : ../view/dashboard.php');
+            session_start();
+             if(!isset($_SESSION['login'])){
+                header('Location : ../view/signin.forms.php');
              }
              else{
-                header('Location : ../view/signin.php');
+                header('Location : ../view/dashboard.php');
              }
         }
     }
-    $check = new checklogin();
-    $check->checking();
+
+    $execute = new checklogin;
+    $execute->checking();
 ?>
