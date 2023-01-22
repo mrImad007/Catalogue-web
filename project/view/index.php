@@ -24,10 +24,10 @@ include('../controller/show.control.php')
     <nav class="nav font-semibold text-lg">
         <ul class="flex items-center">
             <li class="p-4 border-b-2 border-green-500 border-opacity-0 hover:border-opacity-100 hover:text-green-500 duration-200 cursor-pointer active">
-              <a href="../view/index.php">Accueil</a>
+              <a href="../view/index.php">Home</a>
             </li>
             <li class="p-4 border-b-2 border-green-500 border-opacity-0 hover:border-opacity-100 hover:text-green-500 duration-200 cursor-pointer">
-              <a href="../view/store.php">Produits</a>
+              <a href="../view/store.php">Store</a>
             </li>
             <li class="p-4 border-b-2 border-green-500 border-opacity-0 hover:border-opacity-100 hover:text-green-500 duration-200 cursor-pointer">
               <a href="../controller/check.control.php">Dashboard</a>
@@ -52,19 +52,19 @@ include('../controller/show.control.php')
 	<div>
 		<div class="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900">
 			<h1 class="text-5xl font-bold leading-none sm:text-6xl xl:max-w-3xl dark:text-gray-900">Cosmetics, Beauty products, fragrances and tools</h1>
-			<p class="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl dark:text-gray-900">ON EST PAS LES SEULS, MAIS ON EST LES MEILLEURS</p>
+			<p class="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl dark:text-gray-900">WE'RE NOT THE OLY ONES, BUT WE'RE THE BEST ;)</p>
 		</div>
 	</div>
-	<img src="https://i.pinimg.com/736x/c5/21/04/c52104c88250fa258f8e86aebf7ccd07.jpg" alt="" class="w-5/6 mx-auto mb-12 -mt-20 rounded-lg shadow-md lg:-mt-40 dark:bg-gray-500">
+	<img src="https://i.pinimg.com/originals/f5/63/57/f563578b0a646a4a7b78de4536bbda50.png" alt="" class="w-5/6 mx-auto mb-12 -mt-20 rounded-lg shadow-md lg:-mt-40 dark:bg-gray-500">
 </section><br>
-<h1 class="text-center text-3xl">Products</h1>
+<h1 class="text-center text-4xl">Sponsors</h1>
 <!-- carousel --->
 <div class="relative w-full flex gap-4 py-6 overflow-x-auto">
-	<img class="h-48 aspect-video rounded-sm object-cover object-center dark:bg-gray-500" src="https://source.unsplash.com/random/241x361/?1" alt="Image 1">
-	<img class="h-48 aspect-video rounded-sm object-cover object-center dark:bg-gray-500" src="https://source.unsplash.com/random/241x361/?2" alt="Image 2">
-	<img class="h-48 aspect-video rounded-sm object-cover object-center dark:bg-gray-500" src="https://source.unsplash.com/random/241x361/?3" alt="Image 3">
-	<img class="h-48 aspect-video rounded-sm object-cover object-center dark:bg-gray-500" src="https://source.unsplash.com/random/241x361/?4" alt="Image 4">
-	<img class="h-48 aspect-video rounded-sm object-cover object-center dark:bg-gray-500" src="https://source.unsplash.com/random/241x361/?5" alt="Image 5">
+	<img class="h-48 aspect-video rounded-sm object-cover object-center dark:bg-gray-500" src="https://play-lh.googleusercontent.com/myWZLGzETsIjEjdLByMwQBXowXKRdL6qmiRIns3lfACwaaQ8CIAwjPZ0hX031W6U1Bg" alt="Oriflame">
+	<img class="h-48 aspect-video rounded-sm object-cover object-center dark:bg-gray-500" src="https://play-lh.googleusercontent.com/Iq80uL_yp-8aZmmpZVXHeVh0xIBkLKOYEnlTs5xjDay15fbBjewDonAV2kbNuw0ZEw4" alt="Kiko milano">
+	<img class="h-48 aspect-video rounded-sm object-cover object-center dark:bg-gray-500" src="https://wallpaper.dog/large/864678.jpg" alt="Chanel">
+	<img class="h-48 aspect-video rounded-sm object-cover object-center dark:bg-gray-500" src="https://global-uploads.webflow.com/5e157548d6f7910beea4e2d6/5ed97c67c917b86429019e61_Versace%20(1).png" alt="Versace">
+	<img class="h-48 aspect-video rounded-sm object-cover object-center dark:bg-gray-500" src="https://c8.alamy.com/comp/PJ6X4D/giorgio-armani-logo-fashion-luxury-brand-clothes-illustration-PJ6X4D.jpg" alt="Giorgio Armani">
 </div>
 <!-- finito --->
 <!-- testimonials start -->
