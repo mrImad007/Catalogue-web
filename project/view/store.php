@@ -78,11 +78,11 @@
 
 </head>
 
-<body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
+<body>
 
 <section>
        <!--Nav-->
-       <header class="header top-0 bg-gray-100 shadow-md flex items-center justify-between px-8 py-02">
+       <header class="header top-0 shadow-md bg-gray-100 flex items-center justify-between px-8 py-02" >
     <!-- logo -->
     <h1 class="w-3/12">
         <a href="">
@@ -118,7 +118,7 @@
     </div>
 </header>
 
-    <div class="carousel relative container mx-auto" style="max-width:1600px;">
+    <div class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal" class="carousel relative container mx-auto" style="max-width:1600px;">
         <div class="carousel-inner relative overflow-hidden w-full">
             <!--Slide 1-->
             <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">

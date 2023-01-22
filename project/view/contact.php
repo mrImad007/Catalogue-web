@@ -46,7 +46,7 @@
     </div>
 </header><br>
 <!-- end nav --->
-<h1 class="text-center text-4xl font-bold text-gray-800">Don't hesitate to ontact Us</h1><br>
+<h1 class="text-center text-4xl font-bold text-gray-800">Don't hesitate to contact Us</h1><br>
 <!-- start forms --->
 <div class="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 dark:bg-gray-800 dark:text-gray-100">
 	<div class="flex flex-col justify-between">
