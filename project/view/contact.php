@@ -71,7 +71,7 @@
 		</div>
 		<button type="submit" class="w-full p-3 text-sm font-bold tracking-wide uppercase rounded dark:bg-violet-400 dark:text-gray-900">Send Message</button>
 	</form>
-</div>
+</div><br><br>
 <!-- end forms --->
 <!-- footer start -->
 <footer aria-label="Site Footer" class="bg-gray-100">

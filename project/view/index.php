@@ -79,14 +79,14 @@ include('../controller/show.control.php')
 					<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
 					<path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
 				</svg>
-				<p class="px-6 py-1 text-lg italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.</p>
+				<p class="px-6 py-1 text-lg italic"> GlowGuru is the perfect partner to help you build your dreams. No matter who you are, where you come from or what you dream of, we’ve been helping people to build their dreams for over 45 years.</p>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="absolute bottom-0 right-0 w-8 h-8 dark:text-gray-700">
 					<path d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
 					<path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
 				</svg>
 			</div>
 			<span class="w-12 h-1 my-2 rounded-lg dark:bg-violet-400"></span>
-			<p>Leroy Jenkins</p>
+			<p>Imane Bahjari</p>
 		</div>
 		<div class="flex flex-col items-center max-w-lg mx-12 lg:mx-0">
 			<div class="relative text-center">
@@ -94,14 +94,14 @@ include('../controller/show.control.php')
 					<path fill="currentColor" d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
 					<path fill="currentColor" d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
 				</svg>
-				<p class="px-6 py-1 text-lg italic">Accusantium illum cupiditate harum asperiores iusto quos quasi quis quae! Fugit doloribus, voluptatum quidem magnam velit excepturi nobis, reprehenderit ducimus incidunt quisquam quae veritatis, quos iure harum.</p>
+				<p class="px-6 py-1 text-lg italic">GlowGuru is an ensemble of inspiring artists, storytellers, and beauty enthusiasts with a diverse range of interests, points of view, and followers.</p>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="absolute bottom-0 right-0 w-8 h-8 dark:text-gray-700">
 					<path fill="currentColor" d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
 					<path fill="currentColor" d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
 				</svg>
 			</div>
 			<span class="w-12 h-1 my-2 rounded-lg dark:bg-violet-400"></span>
-			<p>Leroy Jenkins</p>
+			<p>Nour El houda Aboulayt</p>
 		</div>
 	</div>
 </section>
