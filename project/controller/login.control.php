@@ -9,7 +9,7 @@
                 if(isset($_POST['email']) && isset($_POST['password'])){
 
                     $email = $_POST['email'];
-                    $password = md5($_POST['password']); 
+                    $password = md5($_POST['password']);
 
                     $result = $this->check($email,$password);
 
