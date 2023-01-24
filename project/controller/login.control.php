@@ -6,7 +6,7 @@
         public function direction(){
 
             
-                if(isset($_POST['email'])){
+                if(isset($_POST['email']) && isset($_POST['password'])){
 
                     $email = $_POST['email'];
                     $password = md5($_POST['password']); 

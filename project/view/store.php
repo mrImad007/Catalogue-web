@@ -221,6 +221,8 @@ Alternatively if you want to just have a single hero
                             </svg>
                         </a>
 
+                        <input type="search" id="idSearch" placeholder="search here" class="px-5">
+
                         <a class="pl-3 inline-block no-underline hover:text-black" href="#">
                             <svg class="fill-current hover:text-black" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                 <path d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z" />
@@ -232,7 +234,7 @@ Alternatively if you want to just have a single hero
             </nav>
             <!-- start repitition loop -->
             <?php foreach($products as $product): ?>
-            <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
+            <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col" id="product">
             
                     <img class="hover:grow hover:shadow-lg" src="<?php echo $product["Pimage"]?>">
                     <div class="pt-3 flex items-center justify-between">
@@ -436,6 +438,8 @@ Alternatively if you want to just have a single hero
   </div>
 </footer>
 
+
+<script src="../controller/search.js"></script>
 </body>
 
 </html>
