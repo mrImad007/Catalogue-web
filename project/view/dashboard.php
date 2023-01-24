@@ -25,13 +25,16 @@
                 <div class="text-white">
                     <div class="flex p-2  bg-gray-800">
                         <div class="flex py-3 px-2 items-center">
-                            <p class="text-2xl text-green-500 font-semibold">SA</p>
-                             <p class="ml-2 font-semibold italic">DASHBOARD</p>
+                        <h1 class="w-3/12">
+                            <a href="../view/index.php">
+                                <p class="text-4xl text-[#d946ef]">GLOW<span class="text-[#c084fc]">GURU</span></p>
+                            </a>
+                        </h1>
                         </div>
                     </div>
                     <div class="flex justify-center">
                         <div class="">
-                            <img class="hidden h-24 w-24 rounded-full sm:block object-cover mr-2 border-4 border-green-400"
+                            <img class="hidden h-24 w-24 rounded-full sm:block object-cover mr-2 border-4 border-[#2563eb]"
                                 src="https://intranet.youcode.ma/storage/users/profile/493-1664881451.JPG" alt="admin image">
                             <p class="font-bold text-base  text-gray-400 pt-2 text-center w-24">Imad Eddine ZAOUI</p>
                         </div>
@@ -53,7 +56,7 @@
                                 <div class="inline-flex items-center justify-between w-full text-base font-semibold transition-colors duration-150 text-gray-500  hover:text-yellow-400 cursor-pointer"
                                     x-on:click="Open = !Open">
                                     <span
-                                        class="inline-flex items-center  text-sm font-semibold text-white hover:text-green-400">
+                                        class="inline-flex items-center  text-sm font-semibold text-white hover:text-[#d946ef]">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -83,7 +86,7 @@
                                         x-transition:leave="transition-all ease-in-out duration-300"
                                         x-transition:leave-start="opacity-100 max-h-xl"
                                         x-transition:leave-end="opacity-0 max-h-0"
-                                        class="p-2 mt-2 space-y-2 overflow-hidden text-sm font-medium  rounded-md shadow-inner  bg-green-400"
+                                        class="p-2 mt-2 space-y-2 overflow-hidden text-sm font-medium  rounded-md shadow-inner  bg-[#d946ef]"
                                         aria-label="submenu">
 
                                         <li class="px-2 py-1 text-white transition-colors duration-150">
@@ -106,7 +109,7 @@
                                         x-transition:leave="transition-all ease-in-out duration-300"
                                         x-transition:leave-start="opacity-100 max-h-xl"
                                         x-transition:leave-end="opacity-0 max-h-0"
-                                        class="p-2 mt-2 space-y-2 overflow-hidden text-sm font-medium  rounded-md shadow-inner  bg-green-400"
+                                        class="p-2 mt-2 space-y-2 overflow-hidden text-sm font-medium  rounded-md shadow-inner  bg-[#d946ef]"
                                         aria-label="submenu">
 
                                         <li class="px-2 py-1 text-white transition-colors duration-150">
@@ -172,7 +175,7 @@
                                 <div class="inline-flex items-center justify-between w-full text-base font-semibold transition-colors duration-150 text-gray-500  hover:text-yellow-400 cursor-pointer"
                                     x-on:click="Open = !Open">
                                     <span
-                                        class="inline-flex items-center  text-sm font-semibold text-white hover:text-green-400">
+                                        class="inline-flex items-center  text-sm font-semibold text-white hover:text-[#d946ef]">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -202,7 +205,7 @@
                                         x-transition:leave="transition-all ease-in-out duration-300"
                                         x-transition:leave-start="opacity-100 max-h-xl"
                                         x-transition:leave-end="opacity-0 max-h-0"
-                                        class="p-2 mt-2 space-y-2 overflow-hidden text-sm font-medium  rounded-md shadow-inner  bg-green-400"
+                                        class="p-2 mt-2 space-y-2 overflow-hidden text-sm font-medium  rounded-md shadow-inner  bg-[#d946ef]"
                                         aria-label="submenu">
 
                                         <li class="px-2 py-1 text-white transition-colors duration-150">
@@ -264,7 +267,7 @@
                         <!-- Profile menu -->
                         <li class="relative">
                             <button
-                                class="p-2 bg-white text-green-400 align-middle rounded-full hover:text-white hover:bg-green-400 focus:outline-none "
+                                class="p-2 bg-white text-[#d946ef] align-middle rounded-full hover:text-white hover:bg-[#d946ef] focus:outline-none "
                                 @click="toggleProfileMenu" @keydown.escape="closeProfileMenu" aria-label="Account"
                                 aria-haspopup="true">
                                 <div class="flex items-center">
@@ -281,7 +284,7 @@
                                 <ul x-transition:leave="transition ease-in duration-150"
                                     x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"
                                     @click.away="closeProfileMenu" @keydown.escape="closeProfileMenu"
-                                    class="absolute right-0 w-56 p-2 mt-2 space-y-2 text-gray-600 bg-green-400 border border-green-500 rounded-md shadow-md"
+                                    class="absolute right-0 w-56 p-2 mt-2 space-y-2 text-gray-600 bg-[#d946ef] border border-green-500 rounded-md shadow-md"
                                     aria-label="submenu">
                                     <li class="flex">
                                         <a class=" text-white inline-flex items-center w-full px-2 py-1 text-sm font-semibold transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800"
@@ -313,7 +316,7 @@
                 </div>
             </header>
             <main class="">
-                <div class="grid mb-4 pb-10 px-8 mx-4 rounded-3xl bg-gray-100 border-4 border-green-400">
+                <div class="grid mb-4 pb-10 px-8 mx-4 rounded-3xl bg-gray-100 border-4 border-[#d946ef]">
 
                     <div class="grid grid-cols-12 gap-6">
                         <div class="grid grid-cols-12 col-span-12 gap-6 xxl:col-span-9">
